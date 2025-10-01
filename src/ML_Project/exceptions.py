@@ -1,6 +1,6 @@
 import os
 import sys
-from logger import logging 
+from src.ML_Project.loggers import logging 
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()

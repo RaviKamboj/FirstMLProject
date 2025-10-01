@@ -10,4 +10,7 @@ pymysql
 # test train split 
 scikit-learn
 
+# Data versioning control
+dvc
+
 #-e .

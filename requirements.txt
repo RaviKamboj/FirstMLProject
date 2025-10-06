@@ -13,4 +13,7 @@ scikit-learn
 # Data versioning control
 dvc
 
+# Model training
+catboost
+xgboost
 #-e .

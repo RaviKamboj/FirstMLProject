@@ -1,0 +1,23 @@
+# Math libs
+numpy 
+pandas
+
+# DB related libs -> python-dotenv-> read .env
+python-dotenv
+mysql-connector-python
+pymysql
+
+# test train split 
+scikit-learn
+
+# Data versioning control
+dvc
+
+# Model training
+catboost
+xgboost
+
+# ML flow
+mlflow
+dagshub
+#-e .

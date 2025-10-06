@@ -16,4 +16,8 @@ dvc
 # Model training
 catboost
 xgboost
+
+# ML flow
+mlflow
+dagshub
 #-e .

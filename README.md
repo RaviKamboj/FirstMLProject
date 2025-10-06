@@ -1,1 +1,7 @@
 # readme
+
+MLFLOW_TRACKING_URI=https://dagshub.com/ravikamboj0598/FirstMLProject.mlflow
+MLFLOW_TRACKING_USERNAME=ravikamboj0598
+MLFLOW_TRACKING_PASSWORD=d413a858ca07be80d0c1f5f4366789c899d17207
+
+app.py

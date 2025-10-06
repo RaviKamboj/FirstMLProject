@@ -45,6 +45,14 @@ def save_object(file_path, obj):
     except Exception as e:
         raise CustomException(e,sys)
 
+def load_object(file_path):
+    try:
+        with open(file_path,"rb") as file_obj:
+            return pickle.load(file_obj)
+        return True
+    except Exception as e:
+        raise CustomException(e,sys)
+
 # create evaluation method to give all metrics after model training 
 def evaluate_model(x_train, y_train , x_test, y_test, models,params):
     try:
